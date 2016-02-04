@@ -1,2 +1,1 @@
-# slideshow-js
-a javascript slideshow
+# Simple Javascript Slider
