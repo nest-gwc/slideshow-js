@@ -9,14 +9,6 @@ body::-webkit-scrollbar {
     display: none; 
 }
 
-.slide {
-  display:none;
-}
-
-.slide .active {
-  display:block;
-}
-
 #main {
     display: flex;
     padding:40px;
@@ -39,9 +31,7 @@ body::-webkit-scrollbar {
     width:400px;
 }
 
-.active{
-    display:block;
-}
+
 
 .hoverLink::hover{
     color:green;    

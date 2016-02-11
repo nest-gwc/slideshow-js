@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready( function(){
 
  var shrinkHeader = 50;
   $('#main').scroll(function() {

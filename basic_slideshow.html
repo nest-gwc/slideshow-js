@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- https://myfirstpage-weijian.c9users.io/ -->
+<html lang="en-us">
+<head>
+	<title>GWC</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<link rel="import" href="import/materialize-css.html">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/basic_slideshow.css" type="text/css" />
+	<link rel="stylesheet" href="css/header.css" type="text/css" />
+	<script type="text/javascript" src="js/header.js"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link rel="stylesheet" href="css/atom_loader.css">
+
+</head>
+
+<body >
+<div class="header">
+
+	<div class="science">
+	  <div class="isthis">
+	    <span class="thisisscienceiguess"></span>
+	    <span class="andthisistoo"></span>
+	    <span class="thisistooofcourse"></span>
+	  </div>
+	</div>
+	<h1 class="animated fadeInDown">Girls Who Code!</h1>
+</div>
+
+<div class="row"
+     style="margin-bottom:0px;background-color:#F3F3F3;">
+	
+	<div id="main" class="col s12">
+
+		<div class="content" style="padding:20px;width:100%">
+				
+			<h3>SlideShow</h3>
+			<div class="divider"></div>
+
+			<div class="card" style="width:100%;display:flex;align-items:center;justify-content:space-around">
+
+ 	 			<a class="btn-floating btn-large waves-effect waves-light teal"
+ 	 			   onclick="prevSlide()"
+ 	 			><i class="material-icons">chevron_left</i></a>
+
+ 	 			<div id="slides">
+				    <div id="slide1" class="slide active animated fadeIn">		
+						<img class="slidePicture" 
+						src="http://cdn.cavemancircus.com//wp-content/uploads/images/2016/january/motivational_quotes_2/motivational_quotes_7.jpg"/>
+					</div>
+
+				    <div id="slide2" class="slide animated fadeIn">		
+						<img  class="slidePicture" src="http://outlava.com/wp-content/uploads/2015/03/inspiring-quotes0.jpg"/>
+					</div>
+
+				    <div id="slide3" class="slide animated fadeIn">		
+						<img class="slidePicture" src="http://d.yimg.com/gg/u/ea6dfef347d7347365b626aa5d92b3616f7da9e9.jpeg"/>
+					</div>
+
+				    <div id="slide4" class="slide animated fadeIn">		
+						<img class="slidePicture" src="http://quotesblog.net/wp-content/uploads/2015/07/Funny-Short-Motivational-Quotes1.jpg"/>
+					</div>
+
+				    <div id="slide5" class="slide animated fadeIn">		
+						<img class="slidePicture" src="https://willlukang.files.wordpress.com/2014/06/cookie-monster-wisdom.jpg"/>
+					</div>
+				</div>
+
+ 	 			<a id="nextButton" onclick="nextSlide()" class="btn-floating btn-large waves-effect waves-light teal"
+ 	 			
+ 	 			><i class="material-icons">chevron_right</i></a>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/basic_slideshow.js"></script>
+</html>
